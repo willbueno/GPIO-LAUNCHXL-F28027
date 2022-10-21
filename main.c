@@ -21,16 +21,27 @@ int main(void)
     EINT;                   // Enable Global interrupt INTM
     ERTM;                   // Enable Global real time interrupt DBGM
 
+    // Configuring LEDs
+    GpioDataRegs.GPACLEAR.bit.GPIO0 = 1;
+    GpioDataRegs.GPASET.bit.GPIO1 = 1;
+    GpioDataRegs.GPACLEAR.bit.GPIO2 = 1;
+    GpioDataRegs.GPASET.bit.GPIO3 = 1;
+
     while (1)
     {
         for (count = 0; count < 0x00FFFFFF; count++)
         {
         }
 
-        // GpioDataRegs.GPADAT.bit.GPIO0 = 0/1;     // Valor do registrador
-        // GpioDataRegs.GPASET.bit.GPIO0 = 1;       // Set para nivel logico alto
-        // GpioDataRegs.GPACLEAR.bit.GPIO0 = 1;     // Set para nivel logico baixo
-        // GpioDataRegs.GPATOGGLE.bit.GPIO0 = 1;    // Inverte o nivel logico
+        // GpioDataRegs.GPxDAT.bit.GPIOy = 0/1;     // Set a value output
+        // GpioDataRegs.GPxSET.bit.GPIOy = 1;       // Set to high logical level
+        // GpioDataRegs.GPxCLEAR.bit.GPIOy = 1;     // Set low logical level
+        // GpioDataRegs.GPxTOGGLE.bit.GPIOy = 1;    // Swap logical level
+
+        GpioDataRegs.GPATOGGLE.bit.GPIO0 = 1;
+        GpioDataRegs.GPATOGGLE.bit.GPIO1 = 1;
+        GpioDataRegs.GPATOGGLE.bit.GPIO2 = 1;
+        GpioDataRegs.GPATOGGLE.bit.GPIO3 = 1;
 
     }
 
