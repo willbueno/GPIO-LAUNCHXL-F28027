@@ -1,6 +1,7 @@
 "./F2802x_GlobalVariableDefs.obj"
 "./Peripheral_Setup.obj"
 "./f2802x_codestartbranch.obj"
+"./f2802x_cputimers.obj"
 "./f2802x_defaultisr.obj"
 "./f2802x_gpio.obj"
 "./f2802x_piectrl.obj"

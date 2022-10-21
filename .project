@@ -41,6 +41,11 @@
 			<locationURI>PARENT-4-PROJECT_LOC/ti/controlSUITE/device_support/f2802x/v230/f2802x_common/source/f2802x_codestartbranch.asm</locationURI>
 		</link>
 		<link>
+			<name>f2802x_cputimers.c</name>
+			<type>1</type>
+			<locationURI>PARENT-4-PROJECT_LOC/ti/controlSUITE/device_support/f2802x/v230/f2802x_common/source/f2802x_cputimers.c</locationURI>
+		</link>
+		<link>
 			<name>f2802x_defaultisr.c</name>
 			<type>1</type>
 			<locationURI>PARENT-4-PROJECT_LOC/ti/controlSUITE/device_support/f2802x/v230/f2802x_common/source/f2802x_defaultisr.c</locationURI>

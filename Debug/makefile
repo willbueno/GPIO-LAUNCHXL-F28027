@@ -13,6 +13,7 @@ ORDERED_OBJS += \
 "./F2802x_GlobalVariableDefs.obj" \
 "./Peripheral_Setup.obj" \
 "./f2802x_codestartbranch.obj" \
+"./f2802x_cputimers.obj" \
 "./f2802x_defaultisr.obj" \
 "./f2802x_gpio.obj" \
 "./f2802x_piectrl.obj" \
@@ -164,8 +165,8 @@ GPIO-LAUNCHXL-F28027.hex: $(EXE_OUTPUTS)
 # Other Targets
 clean:
 	-$(RM) $(BIN_OUTPUTS__QUOTED)$(EXE_OUTPUTS__QUOTED)
-	-$(RM) "F2802x_GlobalVariableDefs.obj" "Peripheral_Setup.obj" "f2802x_codestartbranch.obj" "f2802x_defaultisr.obj" "f2802x_gpio.obj" "f2802x_piectrl.obj" "f2802x_pievect.obj" "f2802x_sysctrl.obj" "f2802x_usdelay.obj" "main.obj" 
-	-$(RM) "F2802x_GlobalVariableDefs.d" "Peripheral_Setup.d" "f2802x_defaultisr.d" "f2802x_gpio.d" "f2802x_piectrl.d" "f2802x_pievect.d" "f2802x_sysctrl.d" "main.d" 
+	-$(RM) "F2802x_GlobalVariableDefs.obj" "Peripheral_Setup.obj" "f2802x_codestartbranch.obj" "f2802x_cputimers.obj" "f2802x_defaultisr.obj" "f2802x_gpio.obj" "f2802x_piectrl.obj" "f2802x_pievect.obj" "f2802x_sysctrl.obj" "f2802x_usdelay.obj" "main.obj" 
+	-$(RM) "F2802x_GlobalVariableDefs.d" "Peripheral_Setup.d" "f2802x_cputimers.d" "f2802x_defaultisr.d" "f2802x_gpio.d" "f2802x_piectrl.d" "f2802x_pievect.d" "f2802x_sysctrl.d" "main.d" 
 	-$(RM) "f2802x_codestartbranch.d" "f2802x_usdelay.d" 
 	-@echo 'Finished clean'
 	-@echo ' '

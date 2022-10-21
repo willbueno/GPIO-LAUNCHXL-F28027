@@ -16,6 +16,7 @@ C:/ti/controlSUITE/device_support/f2802x/v230/f2802x_common/source/f2802x_usdela
 C_SRCS += \
 C:/ti/controlSUITE/device_support/f2802x/v230/f2802x_headers/source/F2802x_GlobalVariableDefs.c \
 ../Peripheral_Setup.c \
+C:/ti/controlSUITE/device_support/f2802x/v230/f2802x_common/source/f2802x_cputimers.c \
 C:/ti/controlSUITE/device_support/f2802x/v230/f2802x_common/source/f2802x_defaultisr.c \
 C:/ti/controlSUITE/device_support/f2802x/v230/f2802x_common/source/f2802x_gpio.c \
 C:/ti/controlSUITE/device_support/f2802x/v230/f2802x_common/source/f2802x_piectrl.c \
@@ -26,6 +27,7 @@ C:/ti/controlSUITE/device_support/f2802x/v230/f2802x_common/source/f2802x_sysctr
 C_DEPS += \
 ./F2802x_GlobalVariableDefs.d \
 ./Peripheral_Setup.d \
+./f2802x_cputimers.d \
 ./f2802x_defaultisr.d \
 ./f2802x_gpio.d \
 ./f2802x_piectrl.d \
@@ -37,6 +39,7 @@ OBJS += \
 ./F2802x_GlobalVariableDefs.obj \
 ./Peripheral_Setup.obj \
 ./f2802x_codestartbranch.obj \
+./f2802x_cputimers.obj \
 ./f2802x_defaultisr.obj \
 ./f2802x_gpio.obj \
 ./f2802x_piectrl.obj \
@@ -53,6 +56,7 @@ OBJS__QUOTED += \
 "F2802x_GlobalVariableDefs.obj" \
 "Peripheral_Setup.obj" \
 "f2802x_codestartbranch.obj" \
+"f2802x_cputimers.obj" \
 "f2802x_defaultisr.obj" \
 "f2802x_gpio.obj" \
 "f2802x_piectrl.obj" \
@@ -64,6 +68,7 @@ OBJS__QUOTED += \
 C_DEPS__QUOTED += \
 "F2802x_GlobalVariableDefs.d" \
 "Peripheral_Setup.d" \
+"f2802x_cputimers.d" \
 "f2802x_defaultisr.d" \
 "f2802x_gpio.d" \
 "f2802x_piectrl.d" \
@@ -78,6 +83,7 @@ ASM_DEPS__QUOTED += \
 C_SRCS__QUOTED += \
 "C:/ti/controlSUITE/device_support/f2802x/v230/f2802x_headers/source/F2802x_GlobalVariableDefs.c" \
 "../Peripheral_Setup.c" \
+"C:/ti/controlSUITE/device_support/f2802x/v230/f2802x_common/source/f2802x_cputimers.c" \
 "C:/ti/controlSUITE/device_support/f2802x/v230/f2802x_common/source/f2802x_defaultisr.c" \
 "C:/ti/controlSUITE/device_support/f2802x/v230/f2802x_common/source/f2802x_gpio.c" \
 "C:/ti/controlSUITE/device_support/f2802x/v230/f2802x_common/source/f2802x_piectrl.c" \
