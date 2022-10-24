@@ -28,52 +28,52 @@
 		<link>
 			<name>F2802x_GlobalVariableDefs.c</name>
 			<type>1</type>
-			<locationURI>PARENT-4-PROJECT_LOC/ti/controlSUITE/device_support/f2802x/v230/f2802x_headers/source/F2802x_GlobalVariableDefs.c</locationURI>
+			<locationURI>PARENT-5-PROJECT_LOC/ti/controlSUITE/device_support/f2802x/v230/f2802x_headers/source/F2802x_GlobalVariableDefs.c</locationURI>
 		</link>
 		<link>
 			<name>F2802x_Headers_nonBIOS.cmd</name>
 			<type>1</type>
-			<locationURI>PARENT-4-PROJECT_LOC/ti/controlSUITE/device_support/f2802x/v230/f2802x_headers/cmd/F2802x_Headers_nonBIOS.cmd</locationURI>
+			<locationURI>PARENT-5-PROJECT_LOC/ti/controlSUITE/device_support/f2802x/v230/f2802x_headers/cmd/F2802x_Headers_nonBIOS.cmd</locationURI>
 		</link>
 		<link>
 			<name>f2802x_codestartbranch.asm</name>
 			<type>1</type>
-			<locationURI>PARENT-4-PROJECT_LOC/ti/controlSUITE/device_support/f2802x/v230/f2802x_common/source/f2802x_codestartbranch.asm</locationURI>
+			<locationURI>PARENT-5-PROJECT_LOC/ti/controlSUITE/device_support/f2802x/v230/f2802x_common/source/f2802x_codestartbranch.asm</locationURI>
 		</link>
 		<link>
 			<name>f2802x_cputimers.c</name>
 			<type>1</type>
-			<locationURI>PARENT-4-PROJECT_LOC/ti/controlSUITE/device_support/f2802x/v230/f2802x_common/source/f2802x_cputimers.c</locationURI>
+			<locationURI>PARENT-5-PROJECT_LOC/ti/controlSUITE/device_support/f2802x/v230/f2802x_common/source/f2802x_cputimers.c</locationURI>
 		</link>
 		<link>
 			<name>f2802x_defaultisr.c</name>
 			<type>1</type>
-			<locationURI>PARENT-4-PROJECT_LOC/ti/controlSUITE/device_support/f2802x/v230/f2802x_common/source/f2802x_defaultisr.c</locationURI>
+			<locationURI>PARENT-5-PROJECT_LOC/ti/controlSUITE/device_support/f2802x/v230/f2802x_common/source/f2802x_defaultisr.c</locationURI>
 		</link>
 		<link>
 			<name>f2802x_gpio.c</name>
 			<type>1</type>
-			<locationURI>PARENT-4-PROJECT_LOC/ti/controlSUITE/device_support/f2802x/v230/f2802x_common/source/f2802x_gpio.c</locationURI>
+			<locationURI>PARENT-5-PROJECT_LOC/ti/controlSUITE/device_support/f2802x/v230/f2802x_common/source/f2802x_gpio.c</locationURI>
 		</link>
 		<link>
 			<name>f2802x_piectrl.c</name>
 			<type>1</type>
-			<locationURI>PARENT-4-PROJECT_LOC/ti/controlSUITE/device_support/f2802x/v230/f2802x_common/source/f2802x_piectrl.c</locationURI>
+			<locationURI>PARENT-5-PROJECT_LOC/ti/controlSUITE/device_support/f2802x/v230/f2802x_common/source/f2802x_piectrl.c</locationURI>
 		</link>
 		<link>
 			<name>f2802x_pievect.c</name>
 			<type>1</type>
-			<locationURI>PARENT-4-PROJECT_LOC/ti/controlSUITE/device_support/f2802x/v230/f2802x_common/source/f2802x_pievect.c</locationURI>
+			<locationURI>PARENT-5-PROJECT_LOC/ti/controlSUITE/device_support/f2802x/v230/f2802x_common/source/f2802x_pievect.c</locationURI>
 		</link>
 		<link>
 			<name>f2802x_sysctrl.c</name>
 			<type>1</type>
-			<locationURI>PARENT-4-PROJECT_LOC/ti/controlSUITE/device_support/f2802x/v230/f2802x_common/source/f2802x_sysctrl.c</locationURI>
+			<locationURI>PARENT-5-PROJECT_LOC/ti/controlSUITE/device_support/f2802x/v230/f2802x_common/source/f2802x_sysctrl.c</locationURI>
 		</link>
 		<link>
 			<name>f2802x_usdelay.asm</name>
 			<type>1</type>
-			<locationURI>PARENT-4-PROJECT_LOC/ti/controlSUITE/device_support/f2802x/v230/f2802x_common/source/f2802x_usdelay.asm</locationURI>
+			<locationURI>PARENT-5-PROJECT_LOC/ti/controlSUITE/device_support/f2802x/v230/f2802x_common/source/f2802x_usdelay.asm</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>
